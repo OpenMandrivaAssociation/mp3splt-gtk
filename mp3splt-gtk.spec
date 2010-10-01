@@ -1,9 +1,8 @@
 Name:		mp3splt-gtk
-Version:	0.5.9
+Version:	0.6
 Release:	%mkrel 1
 Summary:	GTK2 utility to split MP3 and Ogg Files without decoding
-Source0:	http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-%{version}.tar.bz2
-Patch0:		mp3splt-gtk-audclient.patch
+Source0:	http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-%{version}.tar.gz
 URL:		http://mp3splt.sourceforge.net
 Group:		Sound
 License:	GPLv2+
@@ -22,10 +21,11 @@ to make smaller files or to split entire albums to obtain original tracks.
 
 %prep
 %setup -q
-%patch0
 
 %build
-%configure2_5x --enable-audacious
+%configure2_5x \
+	--disable-rpath \
+	--enable-audacious
 %make
 
 %install
