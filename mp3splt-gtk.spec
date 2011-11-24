@@ -1,5 +1,5 @@
 Name:		mp3splt-gtk
-Version:	0.7
+Version:	0.7.1
 Release:	%mkrel 1
 Summary:	GTK2 utility to split MP3 and Ogg Files without decoding
 Source0:	http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-%{version}.tar.gz
