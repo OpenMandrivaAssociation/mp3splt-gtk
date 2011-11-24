@@ -14,7 +14,7 @@ BuildRequires:	gtk2-devel >= 2.12.0
 BuildRequires:	libpng-devel
 BuildRequires:	audacious-devel
 BuildRequires:	gnome-doc-utils
-BuildRequires:	gnomeui2-devel
+BuildRequires:	libgnomeui2-devel
 
 %description
 %{name} is a GTK2 utility to split mp3 and ogg files selecting a begin and an
