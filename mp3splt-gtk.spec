@@ -26,7 +26,8 @@ to make smaller files or to split entire albums to obtain original tracks.
 
 %build
 %configure2_5x \
-	--disable-rpath
+	--disable-rpath \
+	--disable-audacious
 %make
 
 %install
