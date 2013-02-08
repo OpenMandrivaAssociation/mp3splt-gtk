@@ -1,6 +1,6 @@
 Name:		mp3splt-gtk
 Version:	0.7.1
-Release:	2
+Release:	3
 Summary:	GTK2 utility to split MP3 and Ogg Files without decoding
 Source0:	http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-%{version}.tar.gz
 URL:		http://mp3splt.sourceforge.net
@@ -17,9 +17,10 @@ BuildRequires:	pkgconfig(libgnomeui-2.0)
 BuildRequires:	rarian
 
 %description
-%{name} is a GTK2 utility to split mp3 and ogg files selecting a begin and an
-end time position, without decoding. It is very useful to split large mp3/ogg
-to make smaller files or to split entire albums to obtain original tracks.
+%{name} is a GTK2 utility to split mp3 and ogg files selecting a begin
+and an end time position, without decoding. It is very useful to split
+large mp3/ogg to make smaller files or to split entire albums to obtain
+original tracks.
 
 %prep
 %setup -q
