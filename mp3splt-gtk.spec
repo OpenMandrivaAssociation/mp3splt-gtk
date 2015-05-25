@@ -1,3 +1,5 @@
+%define Werror_cflags %{nil}
+
 Name:		mp3splt-gtk
 Version:	0.9.2
 Release:	1
