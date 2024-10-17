@@ -3,7 +3,7 @@ Version:	0.9.2
 Release:	1
 Summary:	GTK2 utility to split MP3 and Ogg Files without decoding
 Source0:	http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-%{version}.tar.gz
-URL:		http://mp3splt.sourceforge.net
+URL:		https://mp3splt.sourceforge.net
 Group:		Sound
 License:	GPLv2+
 BuildRequires:	pkgconfig(gstreamer-1.0)
